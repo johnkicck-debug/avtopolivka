@@ -87,4 +87,8 @@ Wire, EEPROM
 Настройка параметров в коде
 
 При желании можно изменить следующие параметры в начале кода:
-
+```cpp
+void setup() {
+  pinMode(2, OUTPUT);
+  digitalWrite(2, HIGH);
+}
