@@ -89,6 +89,6 @@ Wire, EEPROM
 При желании можно изменить следующие параметры в начале кода:
 ```cpp
 void setup() {
-  pinMode(2, OUTPUT);
-  digitalWrite(2, HIGH);
+  String nm[4]{"Plant 1","Plant 2","Plant 3","Plant 4"}; // Названия растений
+  double liter_per_minute{1.2}; // Производительность насосов (л/мин)
 }
